@@ -1,10 +1,10 @@
 # support-portal-web
 
-This project is a simple web application that behaves like a real SaaS product from a customer support point of view.
+This project simulates the kinds of login, access, and “why doesn’t this work” issues that customers commonly report in SaaS products.
 
-Users log in, stay logged in using sessions, and see different things depending on who they are. The goal of this project is not to show programming skills, but to show how common user issues can be understood, identified, and explained.
+Users log in, sometimes get logged out unexpectedly, sometimes see things they shouldn’t (or can’t see things they should), and sometimes believe the app is broken when the issue is related to their account or session.
 
-This mirrors the kinds of problems customers complain about every day.
+The purpose of this project is to show how those issues can be identified, explained, and clearly communicated to customers or escalated with useful details.
 
 ## Purpose
 
@@ -30,8 +30,8 @@ These are the kinds of problems users report, for example:
 
 This application is split into two parts:
 
-- 1) The part the user sees in their browser (the frontend)
-- 2) The part that handles logins and permissions (the backend)
+1) The part the user sees in their browser (the frontend)
+2) The part that handles logins and permissions (the backend)
 
 The screen does NOT decide what a user is allowed to do. It asks the backend, and then shows or hides things based on the answer.
 
